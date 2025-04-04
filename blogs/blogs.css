@@ -1,0 +1,468 @@
+.layout-content footer {
+  overflow: hidden;
+}
+
+.layout-content .about-hero-wrapper {
+  overflow: hidden;
+}
+
+.layout-content .devarticle-wrapper {
+  overflow: hidden;
+}
+
+.about-hero-wrapper {
+  width: 100%;
+  height: 530px;
+  background-image: url(/assets/images/blog1hero.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.character-slider2 {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.character-swiper {
+  width: 100%;
+  height: auto;
+}
+
+.dev-article-title {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+ul {
+  padding: 0;
+}
+
+.devarticle-date {
+  color: #fff;
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.devarticle-title {
+  color: #fff;
+  text-align: left;
+  font-family: Orbitron;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  margin-top: 0;
+}
+
+.devarticle-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(/assets/images/download1\(2\).png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  width: 100%;
+  position: relative;
+}
+
+.devarticle-wrapper:before {
+  content: "";
+  background: url(/assets/images/Group375.png) no-repeat top center;
+  transform: translateY(-3rem) translate(5%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 1.5%;
+  background-size: 100% 100%;
+}
+
+.devarticle-wrapper:after {
+  content: "";
+  background: url(/assets/images/Group375.png) no-repeat top center;
+  transform: translateY(4rem) translate(5%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  height: 1.5%;
+  background-size: 100% 100%;
+}
+
+.devarticle-container {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.devarticle-cotent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-end;
+  width: 85%;
+  gap: 50px;
+}
+
+.devarticle-img {
+  max-width: 80%;
+  height: 450px;
+}
+
+.devarticle-p-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #fff;
+}
+
+.devarticle-p-container p {
+  width: 90%;
+  color: #fff;
+  font-family: "Orbitron";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
+
+.devarticle-p-container ul li {
+  width: 90%;
+  color: #fff;
+  font-family: "Orbitron";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.article-writer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.writer-avatar {
+  width: 80px;
+  height: 80px;
+}
+
+.article-writer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.article-writer-name {
+  color: #fff;
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1.04px;
+  text-transform: uppercase;
+}
+
+.article-writer-dep {
+  color: #fff;
+  text-align: center;
+  font-family: "Orbitron";
+  font-size: 4px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+}
+
+.article-writer-p {
+  color: #fff;
+  font-family: "Orbitron";
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.devarticle-button {
+  padding: 10px 12px;
+  background: #ffea3147;
+  position: relative;
+  border: 0.5px solid rgba(255, 255, 255, 0.58);
+  transition: 0.3s;
+  color: #fff;
+  text-align: center;
+  font-family: "Orbitron";
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+
+.slider2 {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slides2 {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  gap: 40px;
+}
+
+.slide2 {
+  min-width: 30.2%;
+  box-sizing: border-box;
+}
+
+.slide-content2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.slide-image2 {
+  flex: 1;
+  text-align: center;
+}
+
+.slide-image2 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.slide-image2 {
+  padding: 24px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #605a2c2b;
+}
+
+.swiper-slide {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 480px !important;
+  position: relative;
+  transition-property: transform;
+  display: block;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/assets/images/swiper.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.card-header {
+  height: 256px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  clip-path: polygon(100% 0%, 100% 100%, 11% 100%, 0 80%, 0 0);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card-body > .date {
+  color: #fff;
+  text-align: center;
+  font-family: "Orbitron";
+  font-size: 4px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.card-title {
+  color: #fff;
+  text-align: left;
+  font-family: "Orbitron";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.card-thumbnail > p {
+  color: #fff;
+  text-align: start;
+  font-family: "Orbitron";
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+  margin: 0;
+}
+
+.blog-readmore-link {
+  position: absolute;
+  bottom: 15px;
+}
+
+.align-self-end {
+  align-self: end !important;
+}
+
+.small-button {
+  position: relative;
+  width: 134px;
+  height: 49px;
+  background: url(/assets/svgs/small-button.svg) no-repeat;
+  background-size: 100% 100%;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 8.5px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.68px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .lg-none {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .slide2 {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .character-slider2 {
+    width: 90%;
+  }
+
+  .character-swider {
+    width: 100%;
+  }
+
+  .slider2 {
+    width: 100%;
+  }
+
+  .slides2 {
+    width: 100%;
+  }
+
+  .slide2 {
+    width: 100%;
+  }
+
+  .slide-image2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .about-hero-wrapper {
+    height: 173px;
+  }
+
+  .devarticle-title {
+    font-size: 19.806px;
+  }
+
+  .devarticle-cotent {
+    align-self: flex-start;
+    width: 90%;
+  }
+
+  .devarticle-p-container p,
+  .devarticle-p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  .character-slider2 {
+    width: 85%;
+  }
+}

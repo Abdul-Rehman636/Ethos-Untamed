@@ -1,0 +1,271 @@
+.layout-content div {
+  overflow: hidden;
+}
+
+.about-hero-wrapper {
+  width: 100%;
+  height: 530px;
+  background-image: url(/assets/images/DevBg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-title {
+  color: #fff;
+  text-align: right;
+  font-family: Orbitron;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6.4px;
+  text-transform: uppercase;
+}
+
+.about-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(/assets/images/download1\(2\).png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  width: 100%;
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  width: 72%;
+  height: auto;
+  position: relative;
+}
+
+.about-container:before {
+  content: "";
+  background: url(/assets/images/Group375.png) no-repeat top center;
+  transform: translateY(-3rem) translate(0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3%;
+  background-size: 100% 100%;
+}
+
+.about-container:after {
+  content: "";
+  background: url(/assets/images/Group375.png) no-repeat top center;
+  transform: translateY(4rem) translate(0);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3%;
+  background-size: 100% 100%;
+}
+
+.about-menu-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 40%;
+  gap: 30px;
+}
+
+.about-menu {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menu-section-number {
+  color: #ffea31;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.menu-section-number:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #ffea31;
+  display: inline-block;
+  margin-right: 0.2rem;
+  margin-bottom: 0.09rem;
+}
+
+.about-menu-title {
+  color: #fff;
+  font-family: "Orbitron";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin: 0px;
+}
+
+.menu-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px;
+  margin-top: 24px;
+}
+
+.menuli {
+  color: #fff;
+  font-family: "Orbitron";
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 5px 9px;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.menuli:hover {
+  background: #ffea31;
+}
+
+.about-detail-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 60%;
+}
+
+.about-detail-wrapper > img {
+  height: 320px;
+  width: 100%;
+}
+
+.about-detail-img {
+  width: 500px;
+  height: 290px;
+  clip-path: polygon(100% 0%, 100% 100%, 11% 100%, 0 80%, 0 0);
+  margin-bottom: 45px;
+}
+
+.about-detail-h2 {
+  color: #fff;
+  font-family: "Orbitron";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  margin-top: 0px;
+}
+
+.about-detail-p * {
+  color: #fff;
+  font-family: "Orbitron";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 189%;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.about-detail-h2:before {
+  content: "";
+  width: 14px;
+  height: 18px;
+  background-color: #ffea31;
+  display: inline-block;
+  margin-right: 0.3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .about-menu-title:after {
+    content: "";
+    display: block;
+    width: 166.5px;
+    height: 1px;
+    background-color: #fff;
+    transform: translateY(5px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+
+  .menu-section-number {
+    display: none;
+  }
+
+  .about-menu-wrapper {
+    width: 100%;
+  }
+
+  .about-menu-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 28px;
+    text-align: center;
+    border: 1px solid #f4e345;
+    color: #f4e345;
+    font-family: "Orbitron";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin-bottom: 20px;
+  }
+
+  .menu-ul {
+    width: 100%;
+    margin: 1rem 0px;
+    overflow: auto;
+    padding-bottom: 10px;
+  }
+
+  .about-menu-wrapper {
+    gap: 4px;
+  }
+
+  .about-detail-wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .about-hero-wrapper {
+    height: 173px;
+  }
+
+  .about-title {
+    font-size: 18.146px;
+  }
+}

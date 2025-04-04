@@ -1,0 +1,355 @@
+.layout-content div {
+  overflow: hidden;
+}
+
+.about-hero-wrapper {
+  width: 100%;
+  height: 530px;
+  background-image: url(/assets/images/DevBg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-title {
+  color: #fff;
+  text-align: right;
+  font-family: Orbitron;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6.4px;
+  text-transform: uppercase;
+}
+
+.devblog-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(/assets/images/download1\(2\).png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  width: 100%;
+}
+
+.devblog-container {
+  display: flex;
+  align-items: flex-start;
+  width: 72%;
+  height: auto;
+  position: relative;
+}
+
+.devblog-container:before {
+  content: "";
+  background: url(/assets/images/Group375.png) no-repeat top center;
+  transform: translateY(-3rem) translate(0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3%;
+  background-size: 100% 100%;
+}
+
+.devblog-menu-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 25%;
+  gap: 41px;
+}
+
+.devblog-container:after {
+  content: "";
+  background: url(/assets/images/Group375.png) no-repeat top center;
+  transform: translateY(-3rem) translate(0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3%;
+  background-size: 100% 100%;
+}
+
+.devblog-menu {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.devblog-menu-title {
+  color: #fff;
+  font-family: "Orbitron";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin: 24px 0px 5px 0px;
+}
+
+.devblog-menu-title:after {
+  content: "";
+  display: block;
+  width: 166.5px;
+  height: 1px;
+  background-color: #fff;
+  transform: translateY(5px);
+}
+
+.menu-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px;
+}
+
+.menuli {
+  color: rgb(255, 255, 255);
+  font-family: "Orbitron";
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding: 5px 9px;
+  cursor: pointer;
+}
+
+.menuli:hover {
+  background: rgb(255, 234, 49) !important;
+}
+
+.bg-yellow {
+  background: rgb(255, 234, 49) !important;
+}
+
+.dev-updates-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/images/download1\(2\).png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+}
+
+.updates-tumbnail-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.updates-tumbnail {
+  display: flex;
+  align-items: center;
+  gap: 4.188rem;
+}
+
+.updates-tumbnail-img {
+  width: 150%;
+  clip-path: polygon(100% 0%, 100% 100%, 11% 100%, 0px 80%, 0px 0px);
+}
+
+.updates-tumbnail-img img {
+  height: 180px;
+}
+
+.updates-tumbnail-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.updates-date {
+  color: rgb(255, 255, 255);
+  font-family: "Orbitron";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.udpadtes-h3 {
+  color: rgb(255, 255, 255);
+  font-family: "Orbitron";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin: 2px 0px 0px 0px;
+}
+
+.updates-p {
+  color: rgb(255, 255, 255);
+  font-family: "Orbitron";
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  margin-bottom: 10px;
+}
+
+.updates-link {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  transition: 0.5s ease-in-out;
+}
+
+.updates-link > a {
+  color: rgb(54, 184, 98);
+  font-family: Orbitron;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+  transition: 0.5s;
+}
+
+.updates-link > a::before {
+  content: "";
+  width: 3px;
+  height: 7px;
+  background-color: rgb(54, 184, 98);
+  display: inline-block;
+  margin-right: 0.3rem;
+  margin-bottom: 0.03rem;
+  animation-timeline: auto;
+  animation-range-start: normal;
+  animation-range-end: normal;
+  animation: 1.3s ease 0s infinite normal none running blink-animation;
+}
+
+.updates-link > span > img {
+  transition: 0.5s ease-in-out;
+}
+
+.pagination-main {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+.pagination-main a {
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: "Orbitron";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: 0.2s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+  .devblog-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .devblog-menu-wrapper,
+  .devblog-menu {
+    width: 100%;
+  }
+
+  .devblog-menu-wrapper,
+  .devblog-menu {
+    width: 100%;
+  }
+
+  .menu-ul {
+    width: 100%;
+    flex-direction: row;
+    margin: 1rem 0px;
+    overflow: auto;
+    padding-bottom: 10px;
+  }
+
+  .updates-tumbnail {
+    flex-direction: column;
+    gap: 2.188rem;
+  }
+
+  .pagination a {
+    font-size: 13px;
+    padding: 4px 10px;
+  }
+
+  .devblog-menu-wrapper {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .dev-updates-wrapper {
+    width: 100%;
+  }
+
+  .updates-tumbnail-img {
+    width: 100%;
+  }
+
+  .updates-tumbnail-container {
+    width: 100%;
+  }
+
+  .updates-tumbnail {
+    width: 96.5%;
+    margin: 0 auto;
+  }
+
+  .updates-tumbnail-content {
+    width: 68%;
+    margin: 0 auto;
+  }
+
+  .devblog-container:before {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .devblog-container:after {
+    width: 65%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .about-hero-wrapper {
+    height: 173px;
+  }
+
+  .about-title {
+    font-size: 18.146px;
+  }
+}
